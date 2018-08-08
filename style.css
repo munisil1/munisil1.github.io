@@ -1,0 +1,277 @@
+/* Add a background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  align-content: center;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media (min-width: 600px) {
+    .topnav a {
+        display: inline-block;
+    }
+}
+
+/* Change the color of the links on hover */
+.topnav a:hover {
+  color: #5ad67d;
+}
+
+.logoname {
+  pointer-events: none;
+  cursor: default;
+  font-family: cursive;
+  font-size: 40px !important;
+  text-shadow: 2px 2px greenyellow;
+}
+
+
+
+
+p.section-headers {
+  font-size: 32px;
+  color: rgb(107, 106, 106);
+  font-family: Poppins, sans-serif;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+h1.paragraph-headers {
+  font-size: 28px;
+  color: rgb(107, 106, 106);
+  font-family: Poppins, sans-serif;
+  /* word-spacing: 3px; */
+
+}
+
+p.project-headers, p.work1-company, p.work2-company {
+  font-size: 25px;
+  color: rgb(107, 106, 106);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 3px;
+  text-align: left;
+  padding: 5% 0 0 40%;
+}
+
+p.work1-position, p.work2-position {
+    font-size: 21px;
+    color: rgb(107, 106, 106);
+    opacity: 0.8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: left;
+    padding: 0 0 0 40%;
+    /* line-height: 2px; */
+    
+}
+
+.copyright {
+  overflow: hidden;
+ text-align: center;
+  margin: 0 auto;
+  font-size: 5;
+  color: rgb(63, 62, 62);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 16%;
+}
+.projects-container, .contact-container {
+    background-color: white;
+    /* padding-bottom: 60px; */
+    padding-top: 20px;
+}
+
+.workexperiences-container, .about-container {
+    background-color: rgb(245, 244, 244);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.project1-card, .about-card{ 
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 0 20% 6% 20%;
+  height: 100%;
+}
+
+.work1-card, .work2-card, .about-card{
+    margin: 0 20% 6% 20%;
+    height: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.project1-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project1-image {
+  width: 30%;
+  height: 100%;
+}
+
+.work1-image {
+    width: 35%;
+    padding-top: 5%;
+}
+
+.work2-image {
+    width: 35%;
+    padding-top: 5%;
+}
+
+.project1-description, .work1-description, .work2-description, .about-decription{
+  font-size: 18px;
+  color: rgb(107, 106, 106);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 3px;
+  line-height: 2;
+  padding: 0 8% 0% 40%;
+}
+
+
+.button-class {
+    font-size: 18px;
+    margin: 0 0 5% 0;
+    background-color: lightgreen;
+    height: 3vw;
+    border-top-left-radius: 5%;
+}
+
+
+.button-class {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button-class:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .language-tag {
+    border: 2px solid lightgreen;
+    border-radius: 22px;
+    margin-left: 3%;
+    padding: 1%;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: inherit;
+  }
+
+  .contact-links {
+    font-size: 18px;
+    color: rgb(107, 106, 106);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    word-spacing: 3px;
+    line-height: 2;
+    margin: 0 20% 0 20%;
+    text-align: center;
+  }
+
+  .contact {
+      display: inline-block;
+      text-decoration: none;
+      padding-right: 20px;
+  }
+
+  .border {
+    display: block;
+    width: 80px;
+    height: 6px;
+    background: gray;
+    margin: 10px auto;
+    margin-top: -1.7%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+}
+
+.name-area {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+}
+
+/* ANIMATION-SPECIFIC STYLES */
+.name-area h1 {
+  color: rgb(44, 43, 43);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid green; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #5ad67d }
+}
+
+
+.under-arrow {
+  font-size: 42px;
+  color: rgb(44, 43, 43);
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  padding-bottom: 3%;
+  text-decoration: none;
+}
+
+
+.under-arrow a {
+  text-decoration: none;
+}
+
+.under-arrow a:hover{
+  color:#5ad67d;
+}
+
+
+
