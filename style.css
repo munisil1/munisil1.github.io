@@ -200,13 +200,15 @@ p.work1-position, p.work2-position {
     line-height: 2;
     margin: 0 20% 0 20%;
     text-align: center;
+
   }
 
   .contact {
       display: inline-block;
       text-decoration: none;
-      padding-right: 20px;
+      padding-right: 5%;
   }
+
 
   .border {
     display: block;
